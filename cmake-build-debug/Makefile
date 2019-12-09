@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wanqiwang/CLionProjects/OptionPricingModels
+CMAKE_SOURCE_DIR = /Users/wanqiwang/Documents/GitHub/OptionPricingModels
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug/CMakeFiles /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ CIRModel.cpp.s:
 	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.s
 .PHONY : CIRModel.cpp.s
 
+TestSample.o: TestSample.cpp.o
+
+.PHONY : TestSample.o
+
+# target to build an object file
+TestSample.cpp.o:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o
+.PHONY : TestSample.cpp.o
+
+TestSample.i: TestSample.cpp.i
+
+.PHONY : TestSample.i
+
+# target to preprocess a source file
+TestSample.cpp.i:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/TestSample.cpp.i
+.PHONY : TestSample.cpp.i
+
+TestSample.s: TestSample.cpp.s
+
+.PHONY : TestSample.s
+
+# target to generate assembly for a file
+TestSample.cpp.s:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/TestSample.cpp.s
+.PHONY : TestSample.cpp.s
+
 VasicekModel.o: VasicekModel.cpp.o
 
 .PHONY : VasicekModel.o
@@ -203,6 +230,60 @@ VasicekModel.s: VasicekModel.cpp.s
 VasicekModel.cpp.s:
 	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/VasicekModel.cpp.s
 .PHONY : VasicekModel.cpp.s
+
+cdflib.o: cdflib.cpp.o
+
+.PHONY : cdflib.o
+
+# target to build an object file
+cdflib.cpp.o:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/cdflib.cpp.o
+.PHONY : cdflib.cpp.o
+
+cdflib.i: cdflib.cpp.i
+
+.PHONY : cdflib.i
+
+# target to preprocess a source file
+cdflib.cpp.i:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/cdflib.cpp.i
+.PHONY : cdflib.cpp.i
+
+cdflib.s: cdflib.cpp.s
+
+.PHONY : cdflib.s
+
+# target to generate assembly for a file
+cdflib.cpp.s:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/cdflib.cpp.s
+.PHONY : cdflib.cpp.s
+
+defparameter.o: defparameter.cpp.o
+
+.PHONY : defparameter.o
+
+# target to build an object file
+defparameter.cpp.o:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o
+.PHONY : defparameter.cpp.o
+
+defparameter.i: defparameter.cpp.i
+
+.PHONY : defparameter.i
+
+# target to preprocess a source file
+defparameter.cpp.i:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/defparameter.cpp.i
+.PHONY : defparameter.cpp.i
+
+defparameter.s: defparameter.cpp.s
+
+.PHONY : defparameter.s
+
+# target to generate assembly for a file
+defparameter.cpp.s:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/defparameter.cpp.s
+.PHONY : defparameter.cpp.s
 
 normdist.o: normdist.cpp.o
 
@@ -246,9 +327,18 @@ help:
 	@echo "... CIRModel.o"
 	@echo "... CIRModel.i"
 	@echo "... CIRModel.s"
+	@echo "... TestSample.o"
+	@echo "... TestSample.i"
+	@echo "... TestSample.s"
 	@echo "... VasicekModel.o"
 	@echo "... VasicekModel.i"
 	@echo "... VasicekModel.s"
+	@echo "... cdflib.o"
+	@echo "... cdflib.i"
+	@echo "... cdflib.s"
+	@echo "... defparameter.o"
+	@echo "... defparameter.i"
+	@echo "... defparameter.s"
 	@echo "... normdist.o"
 	@echo "... normdist.i"
 	@echo "... normdist.s"

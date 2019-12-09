@@ -2,6 +2,7 @@
 #include <cmath>
 #include <vector>
 #include "normdist.h"
+#include "defparameter.h"
 using namespace std;
 
 //Vasicek model is one of the one-factor models for interest rates.
@@ -11,14 +12,6 @@ using namespace std;
 
 //Question: We need Q measure because under Q-measure the discounted option value is a martingale.
 //What about forward measure?
-
-
-static double alpha = 0.02456; // Mean reversion speed
-static double mu = 0.0648; // Reversion level
-static double sigma = 0.0289; //Diffusion
-static double lambda = -0.2718; // Market price of risk
-static double rt = 0.06; //test interest rate
-static double ct = 0.01; //test coupon rate
 
 
 //In Vasicek model, alpha^ = alpha, and mu^ = mu + sigma*lambda/alpha
@@ -105,12 +98,4 @@ double couponBondOptionsUnderVasicek(int t, int Tc, vector<int> T, vector<double
         C += ci[i] * zeroCouponBondOptionPriceUnderVasicek(t, Tc, T[i], K);
     }
     return C;
-}
-
-int main(){
-    for(int i = 0; i < 30; i++)
-        cout << zeroCouponBondPriceUnderVasicek(-1, i) <<endl;
-
-    cout << zeroCouponBondOptionPriceUnderVasicek(1,2,30,30);
-
 }

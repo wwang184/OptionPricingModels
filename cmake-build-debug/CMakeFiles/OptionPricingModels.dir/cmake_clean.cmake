@@ -3,6 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/OptionPricingModels.dir/normdist.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o"
+  "CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o"
+  "CMakeFiles/OptionPricingModels.dir/cdflib.cpp.o"
+  "CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o"
   "OptionPricingModels.pdb"
   "OptionPricingModels"
 )

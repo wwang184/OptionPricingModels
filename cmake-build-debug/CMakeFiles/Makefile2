@@ -59,10 +59,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wanqiwang/CLionProjects/OptionPricingModels
+CMAKE_SOURCE_DIR = /Users/wanqiwang/Documents/GitHub/OptionPricingModels
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/OptionPricingModels.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-buil
 CMakeFiles/OptionPricingModels.dir/all:
 	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/depend
 	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target OptionPricingModels"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target OptionPricingModels"
 .PHONY : CMakeFiles/OptionPricingModels.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/OptionPricingModels.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OptionPricingModels.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OptionPricingModels.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/CLionProjects/OptionPricingModels/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/OptionPricingModels.dir/rule
 
 # Convenience name for target.
