@@ -1,0 +1,11 @@
+//
+// Created by Wanqi Wang on 2019-12-08.
+//
+
+#ifndef OPTIONPRICINGMODELS_NORMDIST_H
+#define OPTIONPRICINGMODELS_NORMDIST_H
+
+#endif //OPTIONPRICINGMODELS_NORMDIST_H
+
+double N(double z);
+
