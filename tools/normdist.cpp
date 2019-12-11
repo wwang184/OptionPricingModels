@@ -2,6 +2,7 @@
 // Created by Wanqi Wang on 2019-12-08.
 //
 #include <cmath>
+#include <cstdlib>
 #include <iostream>
 #include "normdist.h"
 using namespace std;
@@ -31,3 +32,21 @@ double N(double z){
     if (z < 0.0) n = 1.0 -n;
     return n;
 };
+
+double random_uniform_0_1(){
+    return double(rand())/double(RAND_MAX); //this uses the C library random number generator
+}
+
+double random_normal(){
+    double U1, U2, V1, V2;
+    double S = 2;
+    while (S>=1){
+        U1 = random_uniform_0_1();
+        U2 = random_uniform_0_1();
+        V1 = 2.0 * U1 - 1.0;
+        V2 = 2.0 * U2 - 1.0;
+        S = pow(V1,2)+pow(V2,2);
+    };
+    double X1 = V1*sqrt((-2.0*log(S))/S);
+    return X1;
+}

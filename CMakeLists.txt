@@ -3,4 +3,8 @@ project(OptionPricingModels)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OptionPricingModels VasicekModel.cpp normdist.h normdist.cpp BlackScholesModel.cpp CIRModel.cpp defparameter.cpp defparameter.h cdflib.cpp cdflib.h TestSample.cpp CIRModel.h VasicekModel.h)
+include_directories(./headers)
+include_directories(./tools)
+
+
+add_executable(OptionPricingModels VasicekModel.cpp tools/normdist.cpp BlackScholesModel.cpp CIRModel.cpp defparameter.cpp tools/cdflib.cpp TestSample.cpp NumericalMethods/simulation.cpp headers/simulation.h)

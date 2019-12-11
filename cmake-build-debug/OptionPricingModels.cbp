@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/./headers"/>
+					<Add directory="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/./tools"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -65,6 +67,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/./headers"/>
+					<Add directory="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/./tools"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -86,7 +90,7 @@
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/CIRModel.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/CIRModel.h">
+		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/NumericalMethods/simulation.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/TestSample.cpp">
@@ -95,25 +99,16 @@
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/VasicekModel.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/VasicekModel.h">
-			<Option target="OptionPricingModels"/>
-		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cdflib.cpp">
-			<Option target="OptionPricingModels"/>
-		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cdflib.h">
-			<Option target="OptionPricingModels"/>
-		</Unit>
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/defparameter.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/defparameter.h">
+		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/headers/simulation.h">
 			<Option target="OptionPricingModels"/>
 		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/normdist.cpp">
+		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/tools/cdflib.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/normdist.h">
+		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/tools/normdist.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/CMakeLists.txt">
