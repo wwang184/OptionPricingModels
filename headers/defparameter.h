@@ -24,3 +24,10 @@ extern double rho_simu;
 extern double S1_simu;
 extern double S2_simu;
 extern double sigma2_simu;
+
+extern double S_bs;
+extern double sigma_bs;
+extern double K_bs;
+extern double r_bs;
+extern double T_bs;
+extern double t_bs; //make T-t = 0.25

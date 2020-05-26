@@ -7,4 +7,4 @@ include_directories(./headers)
 include_directories(./tools)
 
 
-add_executable(OptionPricingModels VasicekModel.cpp tools/normdist.cpp BlackScholesModel.cpp CIRModel.cpp defparameter.cpp tools/cdflib.cpp TestSample.cpp NumericalMethods/simulation.cpp headers/simulation.h)
+add_executable(OptionPricingModels VasicekModel.cpp tools/normdist.cpp CIRModel.cpp defparameter.cpp tools/cdflib.cpp TestSample.cpp NumericalMethods/simulation.cpp headers/simulation.h BSMModel.cpp headers/BSMModel.h)

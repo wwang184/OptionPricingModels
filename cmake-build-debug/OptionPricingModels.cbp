@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/BlackScholesModel.cpp">
+		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/BSMModel.cpp">
 			<Option target="OptionPricingModels"/>
 		</Unit>
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/CIRModel.cpp">
@@ -100,6 +100,9 @@
 			<Option target="OptionPricingModels"/>
 		</Unit>
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/defparameter.cpp">
+			<Option target="OptionPricingModels"/>
+		</Unit>
+		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/headers/BSMModel.h">
 			<Option target="OptionPricingModels"/>
 		</Unit>
 		<Unit filename="/Users/wanqiwang/Documents/GitHub/OptionPricingModels/headers/simulation.h">

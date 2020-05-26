@@ -123,32 +123,32 @@ OptionPricingModels/fast:
 	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/build
 .PHONY : OptionPricingModels/fast
 
-BlackScholesModel.o: BlackScholesModel.cpp.o
+BSMModel.o: BSMModel.cpp.o
 
-.PHONY : BlackScholesModel.o
+.PHONY : BSMModel.o
 
 # target to build an object file
-BlackScholesModel.cpp.o:
-	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o
-.PHONY : BlackScholesModel.cpp.o
+BSMModel.cpp.o:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o
+.PHONY : BSMModel.cpp.o
 
-BlackScholesModel.i: BlackScholesModel.cpp.i
+BSMModel.i: BSMModel.cpp.i
 
-.PHONY : BlackScholesModel.i
+.PHONY : BSMModel.i
 
 # target to preprocess a source file
-BlackScholesModel.cpp.i:
-	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.i
-.PHONY : BlackScholesModel.cpp.i
+BSMModel.cpp.i:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.i
+.PHONY : BSMModel.cpp.i
 
-BlackScholesModel.s: BlackScholesModel.cpp.s
+BSMModel.s: BSMModel.cpp.s
 
-.PHONY : BlackScholesModel.s
+.PHONY : BSMModel.s
 
 # target to generate assembly for a file
-BlackScholesModel.cpp.s:
-	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.s
-.PHONY : BlackScholesModel.cpp.s
+BSMModel.cpp.s:
+	$(MAKE) -f CMakeFiles/OptionPricingModels.dir/build.make CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.s
+.PHONY : BSMModel.cpp.s
 
 CIRModel.o: CIRModel.cpp.o
 
@@ -348,9 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... OptionPricingModels"
-	@echo "... BlackScholesModel.o"
-	@echo "... BlackScholesModel.i"
-	@echo "... BlackScholesModel.s"
+	@echo "... BSMModel.o"
+	@echo "... BSMModel.i"
+	@echo "... BSMModel.s"
 	@echo "... CIRModel.o"
 	@echo "... CIRModel.i"
 	@echo "... CIRModel.s"

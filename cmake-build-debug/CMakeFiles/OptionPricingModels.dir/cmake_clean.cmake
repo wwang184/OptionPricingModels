@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OptionPricingModels.dir/VasicekModel.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/tools/normdist.cpp.o"
-  "CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o"
   "CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o"
+  "CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o"
   "OptionPricingModels.pdb"
   "OptionPricingModels"
 )

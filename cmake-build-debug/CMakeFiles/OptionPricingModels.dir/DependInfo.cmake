@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/BlackScholesModel.cpp" "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o"
+  "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/BSMModel.cpp" "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o"
   "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/CIRModel.cpp" "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o"
   "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/NumericalMethods/simulation.cpp" "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o"
   "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/TestSample.cpp" "/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o"

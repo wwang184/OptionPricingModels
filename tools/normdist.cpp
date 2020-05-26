@@ -33,6 +33,10 @@ double N(double z){
     return n;
 };
 
+double n(double z){
+    return exp(-pow(z,2)/2)/sqrt(2*PI);
+}
+
 double random_uniform_0_1(){
     return double(rand())/double(RAND_MAX); //this uses the C library random number generator
 }

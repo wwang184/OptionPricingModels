@@ -83,22 +83,9 @@ CMakeFiles/OptionPricingModels.dir/tools/normdist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OptionPricingModels.dir/tools/normdist.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wanqiwang/Documents/GitHub/OptionPricingModels/tools/normdist.cpp -o CMakeFiles/OptionPricingModels.dir/tools/normdist.cpp.s
 
-CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
-CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o: ../BlackScholesModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/BlackScholesModel.cpp
-
-CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wanqiwang/Documents/GitHub/OptionPricingModels/BlackScholesModel.cpp > CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.i
-
-CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wanqiwang/Documents/GitHub/OptionPricingModels/BlackScholesModel.cpp -o CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.s
-
 CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
 CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o: ../CIRModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/CIRModel.cpp
 
 CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.s: cmake_force
 
 CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
 CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o: ../defparameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/defparameter.cpp
 
 CMakeFiles/OptionPricingModels.dir/defparameter.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/OptionPricingModels.dir/defparameter.cpp.s: cmake_force
 
 CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
 CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o: ../tools/cdflib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/tools/cdflib.cpp
 
 CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.s: cmake_force
 
 CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
 CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o: ../TestSample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/TestSample.cpp
 
 CMakeFiles/OptionPricingModels.dir/TestSample.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/OptionPricingModels.dir/TestSample.cpp.s: cmake_force
 
 CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
 CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o: ../NumericalMethods/simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/NumericalMethods/simulation.cpp
 
 CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.i: cmake_force
@@ -161,28 +148,41 @@ CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wanqiwang/Documents/GitHub/OptionPricingModels/NumericalMethods/simulation.cpp -o CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.s
 
+CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o: CMakeFiles/OptionPricingModels.dir/flags.make
+CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o: ../BSMModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o -c /Users/wanqiwang/Documents/GitHub/OptionPricingModels/BSMModel.cpp
+
+CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wanqiwang/Documents/GitHub/OptionPricingModels/BSMModel.cpp > CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.i
+
+CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wanqiwang/Documents/GitHub/OptionPricingModels/BSMModel.cpp -o CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.s
+
 # Object files for target OptionPricingModels
 OptionPricingModels_OBJECTS = \
 "CMakeFiles/OptionPricingModels.dir/VasicekModel.cpp.o" \
 "CMakeFiles/OptionPricingModels.dir/tools/normdist.cpp.o" \
-"CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o" \
 "CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o" \
 "CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o" \
 "CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o" \
 "CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o" \
-"CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o"
+"CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o" \
+"CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o"
 
 # External object files for target OptionPricingModels
 OptionPricingModels_EXTERNAL_OBJECTS =
 
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/VasicekModel.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/tools/normdist.cpp.o
-OptionPricingModels: CMakeFiles/OptionPricingModels.dir/BlackScholesModel.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/CIRModel.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/defparameter.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/tools/cdflib.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/TestSample.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/NumericalMethods/simulation.cpp.o
+OptionPricingModels: CMakeFiles/OptionPricingModels.dir/BSMModel.cpp.o
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/build.make
 OptionPricingModels: CMakeFiles/OptionPricingModels.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wanqiwang/Documents/GitHub/OptionPricingModels/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable OptionPricingModels"

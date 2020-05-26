@@ -9,6 +9,7 @@
 #include "defparameter.h"
 #include "cdflib.h"
 
+#include "BSMModel.h"
 #include "CIRModel.h"
 #include "VasicekModel.h"
 
@@ -19,15 +20,21 @@ using namespace std;
 
 int main() {
 
+    cout << "Black Scholes Call Option Price: " << endl;
+    cout << callOptionPrice(S_bs,t_bs,K_bs,r_bs,sigma_bs,T_bs) <<endl;
+    cout << "*******************************"<< endl;
+
     cout << "Zero Coupon Bond Under CIR: " << endl;
     for (int i = 0; i < 30; i++) {
         cout << zeroCouponBondUnderCIR(-1, i) << endl;
     }
+
     cout << "*******************************"<< endl;
     cout << "Zero Coupon Bond Under Vasicek: " << endl;
     for (int i = 0; i < 30; i++) {
         cout << zeroCouponBondPriceUnderVasicek(-1, i) << endl;
     }
+
     cout << "*******************************"<< endl;
     cout << "Simulated Option Price: " << endl;
     cout << MC_simulate_option_price(S0, r_simu, sigma_simu,time_simu,K, 1000) << endl;

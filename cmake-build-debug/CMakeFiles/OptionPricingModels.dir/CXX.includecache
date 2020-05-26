@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+.././headers/BlackScholesPricingModel.h
+
 .././headers/CIRModel.h
 
 .././headers/VasicekModel.h
@@ -33,6 +35,8 @@ defparameter.h
 /Users/wanqiwang/Documents/GitHub/OptionPricingModels/defparameter.h
 cdflib.h
 /Users/wanqiwang/Documents/GitHub/OptionPricingModels/cdflib.h
+BlackScholesPricingModel.h
+/Users/wanqiwang/Documents/GitHub/OptionPricingModels/BlackScholesPricingModel.h
 CIRModel.h
 /Users/wanqiwang/Documents/GitHub/OptionPricingModels/CIRModel.h
 VasicekModel.h
