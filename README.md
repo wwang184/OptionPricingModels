@@ -17,11 +17,16 @@ For course QFGB-8926 Finance Theory and course QFGB-8935 Risk Management.
 - Binomial model
 - Finite Difference
 
-## Chapter 12 No-arbitrage Interest Rate Models
+## Chapter 12 - No-arbitrage Interest Rate Models
 
 - Ho-Lee model
 
+## Chapter 15 Greeks, PnL Attribution and Value-at-Risk
 
+- Historical VaR
+- Parametric VaR
+
+---------------------------------------------------------------
 
 **Vacisek**
 
