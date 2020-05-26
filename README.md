@@ -1,4 +1,5 @@
-# OptionPricingModels
+# Option Pricing Models
+
 An C++ implemenation of option pricing models and interest rate models;
 
 For course QFGB-8926 Finance Theory and course QFGB-8935 Risk Management. 
@@ -22,7 +23,7 @@ For course QFGB-8926 Finance Theory and course QFGB-8935 Risk Management.
 
 
 
-### Vacisek
+**Vacisek**
 
 Zero Coupon Bond Pricing
 
@@ -32,7 +33,7 @@ Zero Coupon Bond Future Pricing
 
 Zero Coupon Bond Future Option Pricing
 
-### CIR
+**CIR**
 
 Zero Coupon Bond Pricing
 
@@ -40,7 +41,7 @@ Zero Coupon Bond Future Pricing
 
 Coupon Bond Future Pricing
 
-### Numerical Methods
+**Numerical Methods**
 
 Monte Carlo Simulation for European Call Option
 
